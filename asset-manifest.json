@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PetBattleGame/static/css/main.5ed4c90a.css",
+    "main.js": "/PetBattleGame/static/js/main.55acd56a.js",
+    "static/js/453.82a1faae.chunk.js": "/PetBattleGame/static/js/453.82a1faae.chunk.js",
+    "static/media/logo.svg": "/PetBattleGame/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/PetBattleGame/index.html",
+    "main.5ed4c90a.css.map": "/PetBattleGame/static/css/main.5ed4c90a.css.map",
+    "main.55acd56a.js.map": "/PetBattleGame/static/js/main.55acd56a.js.map",
+    "453.82a1faae.chunk.js.map": "/PetBattleGame/static/js/453.82a1faae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ed4c90a.css",
+    "static/js/main.55acd56a.js"
+  ]
+}
