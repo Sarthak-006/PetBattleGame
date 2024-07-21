@@ -1,4 +1,4 @@
-
+ 
 # Pet Battle Game
 
 ## Overview
@@ -18,6 +18,9 @@ We are thrilled to participate in the **Inco Network** hackathon, leveraging cut
 - **Backend**: Ethereum Smart Contracts (Solidity)
 - **Blockchain Interaction**: Web3.js
 - **Deployment**: GitHub Pages for easy access and sharing
+
+## Live Demo
+Check out the live demo of the Pet Battle Game [here](https://sarthak-006.github.io/PetBattleGame/).
 
 ## How It Works
 1. **Create a Pet**: Use the `createPet(name)` function to create a new pet. Each pet has unique stats that influence battle outcomes.
