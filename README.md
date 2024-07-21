@@ -1,70 +1,67 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pet Battle Game
 
-## Available Scripts
+## Overview
+Welcome to **Pet Battle Game**, a decentralized application that merges the excitement of pet battles with the power of blockchain technology! Built on the Ethereum network using **Web3.js** and **Solidity**, this game allows players to create, battle, and manage their unique pets in a secure and transparent environment. 
 
-In the project directory, you can run:
+### Inco Network Challenge
+We are thrilled to participate in the **Inco Network** hackathon, leveraging cutting-edge **FHE (Fully Homomorphic Encryption)** technology to deploy confidential smart contracts with our **fhEVM (FHE + EVM)**. Our goal is to create a unique application that not only entertains but also addresses real-world challenges in confidentiality and security.
 
-### `npm start`
+## Key Features
+- **Create Your Pet**: Players can create their own pets with unique names and stats using the `createPet` function.
+- **Engage in Battles**: Challenge other players by battling their pets using the `battle` function. The outcome is determined by your pet's stats, making strategy essential!
+- **View Stats**: Keep track of your pet's performance and your overall player stats, including wins and losses, through the `getPetStats` and `getPlayerStats` functions.
+- **Blockchain Security**: All transactions and pet data are securely stored on the Ethereum blockchain, ensuring transparency and trust.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technology Stack
+- **Frontend**: React.js, HTML, CSS
+- **Backend**: Ethereum Smart Contracts (Solidity)
+- **Blockchain Interaction**: Web3.js
+- **Deployment**: GitHub Pages for easy access and sharing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How It Works
+1. **Create a Pet**: Use the `createPet(name)` function to create a new pet. Each pet has unique stats that influence battle outcomes.
+2. **Battle**: Use the `battle(opponentAddress)` function to challenge another player’s pet.
+3. **Fetch Stats**: Use `getPetStats()` to retrieve your pet's stats and `getPlayerStats(account)` to view your overall performance.
 
-### `npm test`
+## How to Get Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sarthak-006/PetBattleGame.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd pet-battle-game
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the application:
+   ```bash
+   npm start
+   ```
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to start battling!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## UI/UX Design
+The application features a clean and user-friendly interface, designed to enhance user experience. For bonus points, we have incorporated brand colors and design elements that align with the theme of confidential blockchain.
 
-### `npm run build`
+## Use Cases
+This project addresses several use cases, including:
+- **Confidential Gaming**: Players can engage in battles without exposing sensitive data.
+- **Identity Solutions**: Players maintain ownership of their pets securely on the blockchain.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Resources
+- [Documentation with example code](https://docs.inco.org/getting-started/example-dapps)
+- [Inco Arcade for fully built applications](https://arcade.inco.org/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Why This Project?
+In a world where digital ownership and transparency are paramount, **Pet Battle Game** leverages blockchain technology to create a fun and engaging experience. By participating in this hackathon, we aim to showcase the potential of decentralized applications in gaming while addressing the challenges of trust and security in online interactions.
 
-### `npm run eject`
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Join us in the battle and become the ultimate pet trainer while leveraging the power of Inco Network!
